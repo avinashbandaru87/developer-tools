@@ -1,0 +1,245 @@
+!DOCTYPE html>
+<html lang="en">
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Lab</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7f9;
+    color: #222;
+}
+
+.header {
+    background: linear-gradient(135deg, #174b83, #28659b);
+    color: white;
+    padding: 25px 8%;
+}
+
+.logo-area h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.logo-area p {
+    font-size: 14px;
+    color: #dbe9f6;
+}
+
+.navbar {
+    background: #142f50;
+    padding: 0 8%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #16bff3;
+}
+
+.hero {
+    min-height: 320px;
+    
+    background:
+        linear-gradient(
+            rgba(17, 48, 77, 0.78),
+            rgba(17, 48, 77, 0.78)
+        ),
+        url("https://images.unsplash.com/photo-1498050108023-c5249f4df085")
+        center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 50px 8%;
+}
+
+.hero-content {
+    max-width: 650px;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #e7eef5;
+}
+
+.btn {
+    display: inline-block;
+    background: #08b8ed;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #079bc9;
+    transform: translateY(-2px);
+}
+
+.topics {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 35px 6%;
+    background: #f5f8fa;
+}
+
+.card {
+    background: white;
+    min-height: 150px;
+    padding: 25px 18px;
+    text-align: center;
+    border-radius: 4px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12);
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #e7f6fc;
+    color: #078bbd;
+
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card h3 {
+    color: #174b83;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.5;
+}
+</style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo-area">
+            <h1>Web Design Lab</h1>
+            <p>Learn • Build • Create</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Web Design Lab</h2>
+
+            <p>
+                Learn HTML, CSS and modern web design principles
+                to create beautiful and responsive websites.
+            </p>
+
+            <a href="#" class="btn">Start Learning</a>
+        </div>
+    </section>
+
+    <section class="topics">
+
+        <div class="card">
+            <div class=></div>
+            <h3>HTML & CSS</h3>
+            <p>
+                Structure and style beautiful web pages.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class=></div>
+            <h3>UI/UX Design</h3>
+            <p>
+                Create user-friendly interfaces.
+            </p>
+        </div> .
+
+        <div class="card">
+            <div class=></div>
+            <h3>Design Thinking</h3>
+            <p>
+                Understand users and solve problems.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class=></div>
+            <h3>Responsive Design</h3>
+            <p>
+                Build pages for mobile and desktop.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class=></div>
+            <h3>Animations</h3>
+            <p>
+                Add smooth and engaging effects.
+            </p>
+        </div>
+
+    </section>
+</body>
+</html>
